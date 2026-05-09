@@ -1,0 +1,17 @@
+
+
+/*
+This is an update to the Luclin Spells Sha's Table increasing probability to drop. It increases probability from Emperor, Seru, and Grieg from 25% to 100%.
+It also increases probability from Cursed Cycle, Creator, Arch Lich, High Priest, and Shei from 10% up to 50%.
+The goal is to make spell drops more consistent and eliminate rarity. Feel free to adjust numbers as needed for comfort.
+*/
+
+UPDATE 'loottable_entries' SET 'probability'=100 WHERE  'loottable_id'=96588 AND 'lootdrop_id'=114676;
+UPDATE 'loottable_entries' SET 'probability'=100 WHERE  'loottable_id'=12791 AND 'lootdrop_id'=114676;
+UPDATE 'loottable_entries' SET 'probability'=50 WHERE  'loottable_id'=13262 AND 'lootdrop_id'=114676;
+UPDATE 'loottable_entries' SET 'probability'=50 WHERE  'loottable_id'=12822 AND 'lootdrop_id'=114676;
+UPDATE 'loottable_entries' SET 'probability'=50 WHERE  'loottable_id'=12848 AND 'lootdrop_id'=114676;
+UPDATE 'loottable_entries' SET 'probability'=50 WHERE  'loottable_id'=96683 AND 'lootdrop_id'=114676;
+UPDATE 'loottable_entries' SET 'probability'=50 WHERE  'loottable_id'=96684 AND 'lootdrop_id'=114676;
+UPDATE 'loottable_entries' SET 'probability'=50 WHERE  'loottable_id'=96682 AND 'lootdrop_id'=114676;
+UPDATE 'loottable_entries' SET 'probability'=100 WHERE  'loottable_id'=91472 AND 'lootdrop_id'=114676;
